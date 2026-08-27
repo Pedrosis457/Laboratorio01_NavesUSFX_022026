@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "Laboratorio 01 - Programacion Avanzada SIS457 - Juego de Naves",
+	"Modules": [
+		{
+			"Name": "NavesUSFX_022026",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
