@@ -70,10 +70,18 @@ Bajar a `CrearEnemigo()`:
 
 ## 2:00 – 2:45 · Demostración funcionando
 
-**En pantalla:** Unreal Engine, presionar **▶ Play**.
+**En pantalla:** Unreal Engine, con el nivel abierto y **sin** presionar Play todavía.
 
-> "Al dar Play, el GameMode arma el piso, coloca las ocho naves y ubica la cámara. Todo
-> por código."
+> "Antes de ejecutar, miren el nivel: está vacío. En el World Outliner no hay ningún
+> enemigo, no arrastré nada a mano en el editor."
+
+Señalar el World Outliner (panel derecho), que no tiene actores `Enemigo`.
+
+Ahora sí, presionar **▶ Play**.
+
+> "Le doy Play... y aparecen los ocho. Porque el GameMode los crea por código en su
+> BeginPlay, que es justo lo que pedía el laboratorio. El piso y la posición inicial
+> también se generan por código."
 
 Dejar correr y narrar:
 
